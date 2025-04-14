@@ -1,52 +1,81 @@
-<!DOCTYPE html>
-<html lang="pt-PT">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Terçamachado Lda - Venda de Água Potável</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0f7fa;
+    color: #333;
+}
 
-    <header>
-        <h1>Terçamachado Lda</h1>
-        <p>Água a baixo custo e de forma rápida em casa</p>
-    </header>
+header {
+    background-color: #0288d1;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
 
-    <nav>
-        <ul>
-            <li><a href="#servicos">Serviços</a></li>
-            <li><a href="#galeria">Galeria</a></li>
-            <li><a href="#contactos">Contactos</a></li>
-        </ul>
-    </nav>
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
 
-    <main>
-        <section id="servicos">
-            <h2>Serviços</h2>
-            <p>Distribuímos água potável em camiões cisterna para casas, condomínios, empresas e obras. Serviço rápido, seguro e de qualidade.</p>
-        </section>
+nav {
+    margin-top: 10px;
+}
 
-        <section id="galeria">
-            <h2>Galeria de Fotos</h2>
-            <div class="galeria">
-                <img src="images/camiao1.jpeg" alt="Camião Cisterna 1">
-                <img src="images/camiao2.jpeg" alt="Camião Cisterna 2">
-                <img src="images/camiao3.jpeg" alt="Camião Cisterna 3">
-            </div>
-        </section>
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    font-size: 18px;
+}
 
-        <section id="contactos">
-            <h2>Contactos</h2>
-            <p><strong>Telefone:</strong> +244 934 948 841 / +244 957 945 898</p>
-            <p><strong>Email:</strong> machadomario680@gmail.com</p>
-            <a href="https://wa.me/244934948841" class="botao-whatsapp" target="_blank">Peça a sua água no WhatsApp</a>
-        </section>
-    </main>
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
 
-    <footer>
-        <p>&copy; 2025 Terçamachado Lda - Todos os direitos reservados.</p>
-    </footer>
+section h2 {
+    color: #0288d1;
+    margin-bottom: 20px;
+}
 
-</body>
-</html>
+.gallery img {
+    width: 90%;
+    max-width: 400px;
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.contactos {
+    background-color: #b2ebf2;
+    padding: 40px 20px;
+    border-top: 5px solid #0288d1;
+}
+
+footer {
+    background-color: #0288d1;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 30px;
+}
+
+button.whatsapp {
+    background-color: #25D366;
+    border: none;
+    padding: 15px 30px;
+    color: white;
+    font-size: 18px;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    display: inline-block;
+}
+
+button.whatsapp:hover {
+    background-color: #1ebe5d;
+}
