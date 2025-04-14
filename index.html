@@ -1,46 +1,115 @@
 <!DOCTYPE html>
 <html lang="pt">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Terçamachado Lda - Água Potável</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Terçamachado Lda - Água Potável</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f0f8ff;
+    }
+    header {
+      background: #0077b6;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background: #023e8a;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 20px;
+      text-align: center;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+      margin-top: 20px;
+    }
+    .gallery img {
+      width: 300px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    }
+    .whatsapp-buttons {
+      margin: 30px 0;
+    }
+    .whatsapp-buttons a {
+      background-color: #25D366;
+      color: white;
+      padding: 15px 25px;
+      margin: 10px;
+      border-radius: 50px;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 18px;
+    }
+    footer {
+      background: #0077b6;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>Terçamachado Lda</h1>
-        <p>Água a baixo custo e de forma rápida em casa</p>
-        <nav>
-            <ul>
-                <li><a href="#servicos">Serviços</a></li>
-                <li><a href="#galeria">Galeria</a></li>
-                <li><a href="#contactos">Contactos</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <section id="servicos">
-        <h2>Serviços</h2>
-        <p>Venda e entrega de água potável em camiões cisterna, com rapidez, segurança e qualidade.</p>
-    </section>
+<header>
+  <h1>Terçamachado Lda</h1>
+  <p>Venda de água potável em camiões cisterna</p>
+</header>
 
-    <section id="galeria">
-        <h2>Galeria</h2>
-        <div class="galeria-fotos">
-            <img src="https://via.placeholder.com/300x200?text=Caminhao+1" alt="Camião cisterna Terçamachado">
-            <img src="https://via.placeholder.com/300x200?text=Caminhao+2" alt="Entrega de água potável">
-        </div>
-    </section>
+<nav>
+  <a href="#servicos">Serviços</a>
+  <a href="#galeria">Galeria</a>
+  <a href="#contactos">Contactos</a>
+</nav>
 
-    <section id="contactos">
-        <h2>Contactos</h2>
-        <p>Email: machadomario680@gmail.com</p>
-        <p>Telefone: (+351) 912 345 678</p>
-        <p>Localização: Portugal</p>
-    </section>
+<section id="servicos">
+  <h2>Serviços</h2>
+  <p>Água a baixo custo e de forma rápida em casa!</p>
+</section>
 
-    <footer>
-        <p>© 2025 Terçamachado Lda - Todos os direitos reservados.</p>
-    </footer>
+<section class="whatsapp-buttons">
+  <h2>Peça a sua água:</h2>
+  <a href="https://wa.me/244934948841" target="_blank">Peça a sua água (934 948 841)</a>
+  <a href="https://wa.me/244957945898" target="_blank">Peça a sua água (957 945 898)</a>
+</section>
+
+<section id="galeria">
+  <h2>Galeria de Fotos</h2>
+  <div class="gallery">
+    <img src="https://images.unsplash.com/photo-1561136405-38d9038e2529?auto=format&fit=crop&w=800&q=60" alt="Camião Cisterna 1">
+    <img src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=800&q=60" alt="Camião Cisterna 2">
+    <img src="https://images.unsplash.com/photo-1556741533-f6acd647fc86?auto=format&fit=crop&w=800&q=60" alt="Distribuição de Água">
+  </div>
+</section>
+
+<section id="contactos">
+  <h2>Contactos</h2>
+  <p>Email: machadomario680@gmail.com</p>
+</section>
+
+<footer>
+  <p>&copy; 2025 Terçamachado Lda. Todos os direitos reservados.</p>
+</footer>
+
 </body>
 </html>
